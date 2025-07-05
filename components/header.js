@@ -1,8 +1,6 @@
-import { useState } from "react";
-
 export function Header() {
-    let [expanded, setExpanded] = useState(false);
-    let [toggled, setToggled] = useState(false);
+    let [expanded, setExpanded] = React.useState(false);
+    let [toggled, setToggled] = React.useState(false);
 
     const onClick = () => {
         if (!toggled) {
